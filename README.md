@@ -51,8 +51,8 @@ Set `WEBHOOK_DEFAULT_PLATFORM` to specify your platform. This is **required for 
 | Slack | `slack` | `slack.com` |
 | Discord | `discord` | `discord.com`, `discordapp.com` |
 | Microsoft Teams | `teams` | `office.com`, `microsoft.com` |
-| Mattermost | `mattermost` | URLs containing `mattermost` |
-| RocketChat | `rocketchat` | Not auto-detected |
+| Mattermost | `mattermost` | `mattermost` in URL, or `/hooks/{key}` (1 path segment) |
+| RocketChat | `rocketchat` | `/hooks/{id}/{token}` (2 path segments) |
 
 ## Platform Setup Instructions
 
